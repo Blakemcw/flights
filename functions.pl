@@ -35,9 +35,8 @@ haversine( Lat1, Lon1, Lat2, Lon2, Distance ) :-
  */
 
 flight_distance(AirportOfDeparture, AirportOfArrival, Result) :-
-    % Finds the distance between 2 airports.
+    % Finds the great circle distance between two airports.
     airport( AirportOfDeparture, _, Lat1, Lon1 ),
     airport( AirportOfArrival,   _, Lat2, Lon2 ),
     haversine( Lat1, Lon1, Lat2, Lon2, Distance ),
-    write(Distance),
     Result is Distance.
