@@ -8,17 +8,17 @@
 * North latitudes and West longitudes are in degrees, minutes.
 */
 
-airport( atl, ’Atlanta ’, degmin( 33,39 ), degmin( 84,25 ) ).
-airport( bos, ’Boston-Logan ’, degmin( 42,22 ), degmin( 71, 2 ) ).
-airport( chi, ’Chicago ’, degmin( 42, 0 ), degmin( 87,53 ) ).
-airport( den, ’Denver-Stapleton’, degmin( 39,45 ), degmin( 104,52 ) ).
-airport( dfw, ’Dallas-Ft.Worth ’, degmin( 32,54 ), degmin( 97, 2 ) ).
-airport( lax, ’Los Angeles ’, degmin( 33,56 ), degmin( 118,24 ) ).
-airport( mia, ’Miami ’, degmin( 25,49 ), degmin( 80,17 ) ).
-airport( nyc, ’New York City ’, degmin( 40,46 ), degmin( 73,59 ) ).
-airport( sea, ’Seattle-Tacoma ’, degmin( 47,27 ), degmin( 122,18 ) ).
-airport( sfo, ’San Francisco ’, degmin( 37,37 ), degmin( 122,23 ) ).
-airport( sjc, ’San Jose ’, degmin( 37,22 ), degmin( 121,56 ) ).
+airport( atl, 'Atlanta         ', degmin( 33,39 ), degmin( 84,25 ) ).
+airport( bos, 'Boston-Logan    ', degmin( 42,22 ), degmin( 71, 2 ) ).
+airport( chi, 'Chicago         ', degmin( 42, 0 ), degmin( 87,53 ) ).
+airport( den, 'Denver-Stapleton', degmin( 39,45 ), degmin( 104,52 ) ).
+airport( dfw, 'Dallas-Ft.Worth ', degmin( 32,54 ), degmin( 97, 2 ) ).
+airport( lax, 'Los Angeles     ', degmin( 33,56 ), degmin( 118,24 ) ).
+airport( mia, 'Miami           ', degmin( 25,49 ), degmin( 80,17 ) ).
+airport( nyc, 'New York City   ', degmin( 40,46 ), degmin( 73,59 ) ).
+airport( sea, 'Seattle-Tacoma  ', degmin( 47,27 ), degmin( 122,18 ) ).
+airport( sfo, 'San Francisco   ', degmin( 37,37 ), degmin( 122,23 ) ).
+airport( sjc, 'San Jose        ', degmin( 37,22 ), degmin( 121,56 ) ).
 
 /*
 * Flight schedule.
